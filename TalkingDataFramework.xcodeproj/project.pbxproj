@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C3F544941E9B195C00B5278E /* MakeFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C3F544951E9B195C00B5278E /* Build configuration list for PBXAggregateTarget "MakeFramework" */;
+			buildPhases = (
+				C3F544AB1E9B1ACA00B5278E /* Make framework */,
+			);
+			dependencies = (
+				C3F544AA1E9B1A7900B5278E /* PBXTargetDependency */,
+			);
+			name = MakeFramework;
+			productName = TalkingDataSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C3F544A41E9B1A4700B5278E /* TalkingDataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F544A21E9B1A4700B5278E /* TalkingDataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3F544A91E9B1A7900B5278E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3F544801E9B189700B5278E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3F5449F1E9B1A4700B5278E;
+			remoteInfo = TalkingDataSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3F544A01E9B1A4700B5278E /* TalkingDataSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TalkingDataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F544A21E9B1A4700B5278E /* TalkingDataSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkingDataSDK.h; sourceTree = "<group>"; };
+		C3F544A31E9B1A4700B5278E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3F5449C1E9B1A4700B5278E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3F5447F1E9B189700B5278E = {
+			isa = PBXGroup;
+			children = (
+				C3F544A11E9B1A4700B5278E /* TalkingDataSDK */,
+				C3F5448A1E9B189700B5278E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3F5448A1E9B189700B5278E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F544A01E9B1A4700B5278E /* TalkingDataSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3F544A11E9B1A4700B5278E /* TalkingDataSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C3F544A21E9B1A4700B5278E /* TalkingDataSDK.h */,
+				C3F544A31E9B1A4700B5278E /* Info.plist */,
+			);
+			path = TalkingDataSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C3F5449D1E9B1A4700B5278E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F544A41E9B1A4700B5278E /* TalkingDataSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3F5449F1E9B1A4700B5278E /* TalkingDataSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F544A51E9B1A4700B5278E /* Build configuration list for PBXNativeTarget "TalkingDataSDK" */;
+			buildPhases = (
+				C3F5449B1E9B1A4700B5278E /* Sources */,
+				C3F5449C1E9B1A4700B5278E /* Frameworks */,
+				C3F5449D1E9B1A4700B5278E /* Headers */,
+				C3F5449E1E9B1A4700B5278E /* Resources */,
+				C3F544A81E9B1A5600B5278E /* Copy libs */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkingDataSDK;
+			productName = TalkingDataSDK;
+			productReference = C3F544A01E9B1A4700B5278E /* TalkingDataSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3F544801E9B189700B5278E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ricebook;
+				TargetAttributes = {
+					C3F544941E9B195C00B5278E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					C3F5449F1E9B1A4700B5278E = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C3F544831E9B189700B5278E /* Build configuration list for PBXProject "TalkingDataFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3F5447F1E9B189700B5278E;
+			productRefGroup = C3F5448A1E9B189700B5278E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3F5449F1E9B1A4700B5278E /* TalkingDataSDK */,
+				C3F544941E9B195C00B5278E /* MakeFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3F5449E1E9B1A4700B5278E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3F544A81E9B1A5600B5278E /* Copy libs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy libs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r ${SRCROOT}/lib ${TARGET_BUILD_DIR}";
+		};
+		C3F544AB1E9B1ACA00B5278E /* Make framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${TARGET_BUILD_DIR}\n\nlipo -remove i386 lib/libTalkingDataAppCpa.a -output lib/libTalkingDataAppCpa.a\nlipo -remove armv7s lib/libTalkingDataAppCpa.a -output lib/libTalkingDataAppCpa.a\n\ncp lib/libTalkingDataAppCpa.a TalkingDataSDK.framework/TalkingDataSDK\ncp lib/*.h TalkingDataSDK.framework/Headers\n\nmkdir -p TalkingDataSDK.framework/Modules\ncat <<EOF > TalkingDataSDK.framework/Modules/module.modulemap\nframework module TalkingDataSDK {\n    umbrella header \"TalkingDataSDK.h\"\n\n    export *\n\n    link \"z\"\n}\nEOF\n\nrm -rf lib";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3F5449B1E9B1A4700B5278E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3F544AA1E9B1A7900B5278E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3F5449F1E9B1A4700B5278E /* TalkingDataSDK */;
+			targetProxy = C3F544A91E9B1A7900B5278E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3F5448F1E9B189700B5278E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3F544901E9B189700B5278E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3F544961E9B195C00B5278E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3F544971E9B195C00B5278E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3F544A61E9B1A4700B5278E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TalkingDataSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricebook.TalkingDataSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3F544A71E9B1A4700B5278E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TalkingDataSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ricebook.TalkingDataSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3F544831E9B189700B5278E /* Build configuration list for PBXProject "TalkingDataFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F5448F1E9B189700B5278E /* Debug */,
+				C3F544901E9B189700B5278E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F544951E9B195C00B5278E /* Build configuration list for PBXAggregateTarget "MakeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F544961E9B195C00B5278E /* Debug */,
+				C3F544971E9B195C00B5278E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3F544A51E9B1A4700B5278E /* Build configuration list for PBXNativeTarget "TalkingDataSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F544A61E9B1A4700B5278E /* Debug */,
+				C3F544A71E9B1A4700B5278E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3F544801E9B189700B5278E /* Project object */;
+}
